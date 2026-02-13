@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Jungle - Fun Learning App for Kids</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 50%, #A5D6A7 100%);
+            min-height: 100vh;
+            color: #3E2723;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 60px;
+            box-shadow: 0 8px 24px rgba(46, 125, 50, 0.3);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #2E7D32;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #5D4037;
+            margin-bottom: 32px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 32px 0;
+        }
+        .feature {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .feature-icon { font-size: 2em; margin-bottom: 8px; }
+        .feature h3 { color: #2E7D32; margin-bottom: 4px; }
+        .feature p { color: #8D6E63; font-size: 0.9em; }
+        .links {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #5D4037;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.6);
+            transition: background 0.2s;
+        }
+        .links a:hover { background: rgba(255,255,255,0.9); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-icon">🦁</div>
+        <h1>ABC Jungle</h1>
+        <p class="subtitle">A fun and interactive learning app for kids ages 2-4</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🔤</div>
+                <h3>ABCs</h3>
+                <p>Learn the alphabet with fun videos and animations</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔢</div>
+                <h3>123s</h3>
+                <p>Count and learn numbers through play</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <h3>Colors</h3>
+                <p>Discover colors in a colorful jungle world</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔷</div>
+                <h3>Shapes</h3>
+                <p>Explore shapes with interactive lessons</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📖</div>
+                <h3>Stories</h3>
+                <p>Enjoy engaging animated stories</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎵</div>
+                <h3>Poems</h3>
+                <p>Sing along with nursery rhymes</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="support.html">Support</a>
+        </div>
+    </div>
+</body>
+</html>
